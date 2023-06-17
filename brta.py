@@ -6,7 +6,6 @@ class BRTA:
         score = random.randint(0,100)
 
         if score>=33:
-            print('Your are passed')
             license_number = random.randint(9999,39393)
             self.__licensed[email]= license_number
             return license_number
